@@ -1,2 +1,2 @@
 # Data-Science-Projects
-This repository contains all the code Data Science projects and the code
+This repository contains all the Data Science projects and the code
