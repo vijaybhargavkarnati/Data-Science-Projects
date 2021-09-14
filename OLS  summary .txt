@@ -1,0 +1,81 @@
+Statistical significnce of Linear Regression -
+
+The p value assoaciated with a variable
+The F- static
+The R2 value.
+
+
+ The coefficient of determination is denoted by R2 is the proportion of variance in  the dependent variable that is predicted from the independent variable. 
+	i.e It explain how fit the model is
+
+Your model is fit very  good if R2 value is close to 1.
+
+
+
+If you keep adding features to you model for the better prediction accuracy , your R2 value may increases (close to 1).
+
+
+how ever your Adj - R2 vlue would account for this by penalizing the R2 values that include inappropriate features 
+i.e if you go down adding values that are not useful or less appropriate to the model you Adhj -R2 value would gone down.
+
+
+If your Adj  R2 is much less than R2 value, it's a sign that a variable is inappropriate(not be relavant) to to you model.
+
+--------------------------------------------
+F-statistic (or) F-test is used to assess the significance of the LR model.
+
+What is F-statsistic (or) F-test
+
+It compares the Regression model with Zero(no) predictors and Regression model with Predictors.
+It is  also called as Intercept Only Model.
+It has only intercept(c-value).
+
+The Null Hypothesis of this model is that - 
+
+These two models are equal i.e model is performing same with predictors and no predictors.
+
+
+The Alternate Hypothesis is that Intercept Only  model is worse than our specified model(with features)
+
+
+
+We will get back P value and a F-statistic value, we can decide whether to reject or 
+accept the null hypothesis
+
+
+Given this p-value close to 0 and F-statistic is realy very large and we can reject the null hypothesis i.e there is an evidence that there is a linear relationship between predictor varables withe respect to target variables.
+
+
+
+F- Statistic value greater than 1 or a really a large value alue Lthat is your probability of F-statistic values less than 0.05 it states that there ia good amountof relationship between my target variable and my feature variables.
+
+
+
+In order to  find whether the indepenedent variable is relavent to the target variable we perform a t -test
+
+
+
+t -test
+
+-------
+It looks for the relationship between the target variable and independent variable independently  without taking into account
+
+It performs a t-test between feature 1 and  target varaibel and  so on
+
+
+The Null Hypothesis is that value(coefficient) of a particular feature  is to be Zero 
+The ALternate Hypthosesis feature coefficient value will not be  equal to Zero.
+
+
+In bavesh batt explanation, the p - value of the feature 3 is greater than 0.05. So, we have failed to reject the Null Hypothtesis in both F-test and t-test(i.e  Intercept only model is worse than model with predictors)
+and we are also rejecting the Null Hypothesisi of t -test  i.e the cofficient value of the feature is not zero
+
+
+
+
+
+
+
+
+
+
