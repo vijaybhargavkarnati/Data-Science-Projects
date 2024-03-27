@@ -1,6 +1,0 @@
-streamlit
-tensorflow
-numpy
-pandas
-scikit-learn  # If you're using it for preprocessing or other tasks
-pillow  # If you're handling images
