@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 
 
-pickle_in = open("autoencoder.pkl","wb")
+pickle_in = open("autoencoder.pkl","rb")
 classifier=pickle.load(pickle_in)
 
 
